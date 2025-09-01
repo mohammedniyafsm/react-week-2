@@ -5,6 +5,7 @@ import FetchData from './components/FetchData'
 import ContextTheme from './components/ContextTheme'
 import React, { Suspense } from 'react'
 import ReactMemo from './components/ReactMemo'
+import MemoComponent from './components/MemoComponent'
 const Home = React.lazy(()=> import("./components/Home"));
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/fetchdata' element={<FetchData/>}/>
       <Route path='/theme' element={<ContextTheme/>}/>
       <Route path='/memo' element={<ReactMemo/>}/>
+      <Route path='/memofun' element={<MemoComponent/>}/>
     </Routes>
       </Suspense>
     </BrowserRouter>
