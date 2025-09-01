@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "phone": "9876543210",
+      "isAdmin": false
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "phone": "9876501234",
+      "isAdmin": true
+    }
+  ],
+  "products": [
+    {
+      "id": "101",
+      "name": "Modern Wooden Chair",
+      "category": "Furniture",
+      "price": 120,
+      "offerPrice": 99,
+      "description": "A stylish wooden chair perfect for dining rooms.",
+      "images": [
+        "https://picsum.photos/200?random=1",
+        "https://picsum.photos/200?random=2"
+      ],
+      "stock": 50
+    },
+    {
+      "id": "102",
+      "name": "Laptop - Dell Inspiron 15",
+      "category": "Electronics",
+      "price": 650,
+      "offerPrice": 599,
+      "description": "15-inch laptop with i5 processor and 8GB RAM.",
+      "images": [
+        "https://picsum.photos/200?random=3",
+        "https://picsum.photos/200?random=4"
+      ],
+      "stock": 20
+    },
+    {
+      "id": "103",
+      "name": "Running Shoes",
+      "category": "Fashion",
+      "price": 75,
+      "offerPrice": 60,
+      "description": "Lightweight running shoes for men and women.",
+      "images": [
+        "https://picsum.photos/200?random=5",
+        "https://picsum.photos/200?random=6"
+      ],
+      "stock": 80
+    },
+    {
+      "id": "104",
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 120,
+      "offerPrice": 99,
+      "description": "Noise-cancelling over-ear wireless headphones.",
+      "images": [
+        "https://picsum.photos/200?random=7",
+        "https://picsum.photos/200?random=8"
+      ],
+      "stock": 35
+    },
+    {
+      "id": "105",
+      "name": "Office Desk",
+      "category": "Furniture",
+      "price": 250,
+      "offerPrice": 199,
+      "description": "Spacious wooden desk suitable for home office.",
+      "images": [
+        "https://picsum.photos/200?random=9",
+        "https://picsum.photos/200?random=10"
+      ],
+      "stock": 15
+    },
+    {
+      "id": "106",
+      "name": "Smartwatch - FitX Pro",
+      "category": "Electronics",
+      "price": 150,
+      "offerPrice": 129,
+      "description": "Fitness smartwatch with heart rate monitor and GPS.",
+      "images": [
+        "https://picsum.photos/200?random=11",
+        "https://picsum.photos/200?random=12"
+      ],
+      "stock": 60
+    },
+    {
+      "id": "107",
+      "name": "Leather Handbag",
+      "category": "Fashion",
+      "price": 200,
+      "offerPrice": 180,
+      "description": "Premium leather handbag for women.",
+      "images": [
+        "https://picsum.photos/200?random=13",
+        "https://picsum.photos/200?random=14"
+      ],
+      "stock": 25
+    },
+    {
+      "id": "108",
+      "name": "Gaming Keyboard",
+      "category": "Electronics",
+      "price": 99,
+      "offerPrice": 85,
+      "description": "Mechanical keyboard with RGB backlight.",
+      "images": [
+        "https://picsum.photos/200?random=15",
+        "https://picsum.photos/200?random=16"
+      ],
+      "stock": 40
+    }
+  ],
+  "orders": [
+    {
+      "id": "1001",
+      "userId": 1,
+      "productId": 103,
+      "quantity": 2,
+      "status": "shipped"
+    },
+    {
+      "id": "1002",
+      "userId": 2,
+      "productId": 105,
+      "quantity": 1,
+      "status": "pending"
+    },
+    {
+      "id": "1003",
+      "userId": 3,
+      "productId": 106,
+      "quantity": 1,
+      "status": "delivered"
+    }
+  ]
+}
