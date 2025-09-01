@@ -6,6 +6,7 @@ import ContextTheme from './components/ContextTheme'
 import React, { Suspense } from 'react'
 import ReactMemo from './components/ReactMemo'
 import MemoComponent from './components/MemoComponent'
+import UseCallBackMemo from './components/useCallBackMemo'
 const Home = React.lazy(()=> import("./components/Home"));
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='/theme' element={<ContextTheme/>}/>
       <Route path='/memo' element={<ReactMemo/>}/>
       <Route path='/memofun' element={<MemoComponent/>}/>
+      <Route path='/callbackmemo' element={<UseCallBackMemo/>} />
     </Routes>
       </Suspense>
     </BrowserRouter>
