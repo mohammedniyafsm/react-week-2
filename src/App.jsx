@@ -7,6 +7,7 @@ import React, { Suspense } from 'react'
 import ReactMemo from './components/ReactMemo'
 import MemoComponent from './components/MemoComponent'
 import UseCallBackMemo from './components/useCallBackMemo'
+import RealDom from './components/RealDom'
 const Home = React.lazy(()=> import("./components/Home"));
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path='/memo' element={<ReactMemo/>}/>
       <Route path='/memofun' element={<MemoComponent/>}/>
       <Route path='/callbackmemo' element={<UseCallBackMemo/>} />
+      <Route path='/realdom' element={<RealDom/>} />
     </Routes>
       </Suspense>
     </BrowserRouter>
